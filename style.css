@@ -1,0 +1,267 @@
+body {
+  overflow: none;
+}
+
+header{
+  background: linear-gradient(90deg, yellow, red);
+}
+
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 50px;
+  color: black;
+  height: 0.15em;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+}
+
+h2 {
+  font-family: 'Orbitron', sans-serif;
+  position: relative;
+  margin-bottom: 2em;
+}
+
+a{
+  font-family: 'Orbitron', sans-serif;
+  color: black;
+}
+
+ .navbar-fixed-top {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  height: 80px;
+  background-color: white;
+  z-index: 999;
+}
+
+.nav__item {
+    display: inline-block;
+    margin-left: 2em;
+}
+
+.nav__link {
+  display: table-cell;
+  font-size: 30px;
+  padding: 15px;
+  color: black;
+  text-decoration: none;
+  margin-left: -50%;
+  border-bottom: 2px solid transparent;
+  border-top: 2px solid transparent;
+  transition: border-bottom-color 0.5s ease-out;
+  transition: border-top-color 0.5s ease-out;
+  -webkit-transition: border-top-color 0.5s ease-out;
+  -webkit-transition: border-bottom-color 0.5s ease-out;
+}
+
+.nav__link:hover {
+  color: black;
+  border-bottom-color: black;
+  border-top-color: black;
+}
+
+
+img{
+  margin-top: 5em;
+  margin-bottom: 2em;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.button {
+  padding: 8px;
+  margin-top: 2em;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  transition: all 0.2s cubic-bezier(.4, 0, .2, 1);
+}
+
+.button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 5em;
+  width: 30%;
+}
+
+.button:hover {
+  width: 12%;
+  letter-spacing: 0.8em;
+  background-color: #cccccc;
+}
+
+main{
+  margin-bottom: 80em;
+}
+
+h2{
+  text-align: center;
+  font-size: 40px;
+}
+
+
+p {
+  font-family:monospace;
+  font-size: 18px;
+  margin: 0 auto;
+  width: 1000px;
+  height: 200px;
+  margin-top: -15px;
+  padding-bottom: 5%;
+  text-align: center justify;
+  /*text-align: center;*/
+}
+
+div{
+  font-family:monospace;
+  font-size: 18px;
+}
+
+h3{
+  margin-top: 16em;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Orbitron', sans-serif;
+  position: relative;
+  margin-bottom: 2em;
+}
+
+li{
+  margin-left: 20%;
+  display: inline-block;
+  line-height: 20px;
+  font-size: 15px;
+  font-family: 'Orbitron', sans-serif;
+  position: relative;
+  margin-bottom: 2em;
+}
+
+.column {
+  float: left;
+  padding: 5px;
+  margin-top: 40px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: inline-table;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 4em;
+}
+
+.column {
+  flex: 100%;
+  padding: 5px;
+}
+
+.contact{
+  font-family: "Comic Sans MS";
+  font-size: 23px;
+  line-height: 40px;
+  width: 500px;
+  text-align: center;
+}
+
+em{
+  font-family: "Comic Sans MS";
+  font-size: 40px;
+}
+
+.footer button{
+  margin-top: 20em;
+}
+
+.link{
+  font-family: "Comic Sans MS";
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+  height: 25%;
+  background-color: rgb(22, 22, 17);
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  line-height: 40px;
+  -webkit-transition:1s;
+  border-radius:15px;
+  margin-bottom: 5em;
+}
+
+.img_yoimiya{
+  float: left;
+  margin-left: -12em;
+  width:500px;
+  height: 650px;
+}
+
+.p_yoimiya{
+  float: left;
+  margin-left: 55%;
+  margin-top: -40%;
+  font-size: 20px;
+  font-family: "Comic Sans MS";
+  width: 500px;
+  text-align: justify;
+}
+
+em{
+  font-size: 25px;
+}
+
+.yoimiya_link{
+  font-size: 22px;
+  text-align: center;
+  font-family: "Comic Sans MS";
+  display: block;
+  margin: 0 auto;
+  width: 45%;
+  height: 25%;
+  background-color: rgb(245, 203, 151);
+  color: white;
+  text-decoration: none;
+  line-height: 40px;
+  -webkit-transition:1s;
+  border-radius:15px;
+  margin-bottom: 5em;
+}
+
+.end_yoimiya{
+  padding-right: 2em;
+  width: 800px;
+  margin-top: 80%;
+}
+
+.copyright strong{
+  margin-top: 50%;
+}
+
+.copyright{
+  margin-bottom: -50em;
+  margin-left: -150%;
+  margin-top: 10em;
+  float: left;
+  font-family: 'Lucida Sans';
+  font-size: 15px;
+}
